@@ -3,7 +3,9 @@ import React from 'react';
 function Resume() {
 
     return(
-        <h2 className='test'>Resume</h2>
+        <section id='resume'>
+            <h2 className='test'>Resume</h2>
+        </section>
     )
 }
 
