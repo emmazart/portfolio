@@ -1,9 +1,30 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 
 function Footer() {
 
     return(
-        <h2 className='test'>Footer</h2>
+        <footer className='footer'>
+            <ul className='footer-list'>
+                <li>
+                    <a href="https://github.com/emmazart">
+                    <FontAwesomeIcon icon={ faGithub } size="lg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/emma-c-olson-a1340889">
+                    <FontAwesomeIcon icon={ faLinkedinIn } size="lg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:emma.olson794@gmail.com">
+                    <FontAwesomeIcon icon={ faPaperPlane } size="lg" />
+                    </a>
+                </li>
+            </ul>
+        </footer>
     )
 }
 
