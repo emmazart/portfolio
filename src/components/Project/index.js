@@ -20,6 +20,12 @@ const projects = [
         file_name: 'coding-quiz-gif.gif',
         github: 'emmazart/coding-quiz',
         deployment: 'https://emmazart.github.io/coding-quiz/'
+    },
+    {
+        title: 'Untitled Project (Coming Soon)',
+        file_name: 'coming-soon.png',
+        github: 'emmazart',
+        deployment: 'https://github.com/emmazart'
     }
 ];
 
