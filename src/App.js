@@ -42,14 +42,12 @@ function App() {
   }
 
   return (
-    <div className="App bg-myPink">
+    <div className="App p-9">
       <Header 
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
       />
-      <h1 className='test'>App</h1>
-      {/* {currentCategory.name === 'About me' ? <About /> : <div>No about</div>} */}
       {handleCategory(currentCategory)}
       <Footer />
     </div>

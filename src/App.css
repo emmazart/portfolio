@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: #242221;
 }
 
 .App-header {
@@ -19,7 +20,7 @@
   background-color: aquamarine;
 }
 
-/* NAVIGATION  */
+/* NAVIGATION & FOOTER */
 
 .nav {
   padding-left: none;
@@ -42,4 +43,21 @@
 .footer-list {
   width: 30%;
   justify-content: space-around;
+}
+
+/* SECTION STYLES */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-title {
+  width: 50%;
+  border-bottom: solid #ffb4a2;
+  padding-bottom: .5rem;
+  margin-bottom: 1rem;
 }
