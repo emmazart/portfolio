@@ -36,11 +36,13 @@ function App() {
         return(<Portfolio />)
       case 'Resume':
         return(<Resume />)
+      default: 
+        return(<About />)
     };
   }
 
   return (
-    <div className="App">
+    <div className="App bg-myPink">
       <Header 
         categories={categories}
         setCurrentCategory={setCurrentCategory}

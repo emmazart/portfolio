@@ -4,7 +4,11 @@ function About() {
   return (
     <section id="about">
       <h2 className="test">About Me</h2>
-      <img src={require('../../assets/profile_pic.jpg')} style={{ height: '200px', width: '200px', borderRadius: '10%'}}></img>
+      <img 
+        src={require('../../assets/profile_pic.jpg')} 
+        style={{ height: '200px', width: '200px', borderRadius: '10%'}}
+        alt="Emma smiling at the camera"
+        ></img>
       <h3>Hi! I'm Emma</h3>
       <p>
         I'm a full stack web developer leveraging my theatre management and small

@@ -10,7 +10,7 @@ function Navigation(props) {
 
     return(
         <nav className='nav'>
-            <ul className='nav-list'>
+            <ul className='nav-list text-3xl'>
                 <li><a href='#about' onClick={() => {setCurrentCategory(categories[0])}}>About Me</a></li>
                 <li><a href='#portfolio' onClick={() => setCurrentCategory(categories[2])}>Portfolio</a></li>
                 <li><a href='#contact' onClick={() => setCurrentCategory(categories[1])}>Contact</a></li>
