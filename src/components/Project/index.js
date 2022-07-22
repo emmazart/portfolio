@@ -19,7 +19,7 @@ const projects = [
     },
     {
         title: 'Coding Quiz',
-        file_name: 'coding-quiz-gif.gif',
+        file_name: 'coding-quiz.png',
         alt: "gif of multiple computer screenshots of deployed application",
         github: 'emmazart/coding-quiz',
         deployment: 'https://emmazart.github.io/coding-quiz/'
@@ -36,7 +36,7 @@ const projects = [
 function Project() {
 
     return(
-        <section>
+        <section className='w-full columns-1 md:columns-2 md:mt-5 md:pt-2'>
             {projects.map(project => {
 
                 return(
