@@ -33,10 +33,10 @@ function Project() {
 
     return(
         <section>
-            {projects.map(project => {
+            {projects.map((project, i) => {
 
                 return(
-                    <div className='project-card'>
+                    <div className='project-card' key={i}>
                         <h3>{`${project.title}`}</h3>
                         <img src={require(`../../assets/app_images/${project.file_name}`)} style={{width: "400px"}}></img>
                         <p>

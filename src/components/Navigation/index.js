@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { Nav, Navbar } from 'react-bootstrap'; 
+
 
 function Navigation(props) {
 
@@ -8,15 +10,14 @@ function Navigation(props) {
         document.title = currentCategory.name;
     }, [currentCategory]);
 
+    // bootstrap version
     return(
-        <nav className='nav'>
-            <ul className='nav-list'>
-                <li><a href='#about' onClick={() => {setCurrentCategory(categories[0])}}>About Me</a></li>
-                <li><a href='#portfolio' onClick={() => setCurrentCategory(categories[2])}>Portfolio</a></li>
-                <li><a href='#contact' onClick={() => setCurrentCategory(categories[1])}>Contact</a></li>
-                <li><a href='#resume' onClick={() => setCurrentCategory(categories[3])}>Resume</a></li>
-            </ul>
-        </nav>
+        <Nav className='justify-content-center bg-light'>
+                <Nav.Item><Nav.Link href='#about' onClick={() => {setCurrentCategory(categories[0])}}>About Me</Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link href='#portfolio' onClick={() => setCurrentCategory(categories[2])}>Portfolio</Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link href='#contact' onClick={() => setCurrentCategory(categories[1])}>Contact</Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link href='#resume' onClick={() => setCurrentCategory(categories[3])}>Resume</Nav.Link></Nav.Item>
+        </Nav>
     )
 }
 
