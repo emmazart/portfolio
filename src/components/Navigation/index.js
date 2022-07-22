@@ -11,10 +11,10 @@ function Navigation(props) {
     return(
         <nav className='nav py-2'>
             <ul className='nav-list text-xl text-lightest'>
-                <li><a href='#about' onClick={() => {setCurrentCategory(categories[0])}}>About Me</a></li>
-                <li><a href='#portfolio' onClick={() => setCurrentCategory(categories[2])}>Portfolio</a></li>
-                <li><a href='#contact' onClick={() => setCurrentCategory(categories[1])}>Contact</a></li>
-                <li><a href='#resume' onClick={() => setCurrentCategory(categories[3])}>Resume</a></li>
+                <li className={`${currentCategory.name === categories[0].name && 'text-darkest italic'}`}><a href='#about' onClick={() => {setCurrentCategory(categories[0])}}>About Me</a></li>
+                <li className={`${currentCategory.name === categories[2].name && 'text-darkest italic'}`}><a href='#portfolio' onClick={() => setCurrentCategory(categories[2])}>Portfolio</a></li>
+                <li className={`${currentCategory.name === categories[1].name && 'text-darkest italic'}`}><a href='#contact' onClick={() => setCurrentCategory(categories[1])}>Contact</a></li>
+                <li className={`${currentCategory.name === categories[3].name && 'text-darkest italic'}`}><a href='#resume' onClick={() => setCurrentCategory(categories[3])}>Resume</a></li>
             </ul>
         </nav>
     )
