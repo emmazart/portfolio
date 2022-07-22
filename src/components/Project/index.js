@@ -31,8 +31,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 // }
 
 
-function Project(props) {
-    const { title, fileName, github, deployment } = props;
+function Project({ title, fileName, github, deployment }) {
+    // const { title, fileName, github, deployment } = props;
 
                 return(
                     <div className='project-card'>
