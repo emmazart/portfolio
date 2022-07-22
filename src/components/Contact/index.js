@@ -42,26 +42,37 @@ function Contact() {
     }
 
     return(
-        <section id='contact'>
-            <h2 className='test'>Contact Me</h2>
+        <section id='contact' className="content py-3 my-2">
+            <h2 className="content-title text-2xl">Contact Me</h2>
             <form id='contact-form' onSubmit={handleSubmit}>
-            <div>
-                    <label>Name:</label>
-                    <input type="text" name='name' defaultValue={name} onBlur={handleChange}></input>
-
+                <div className='flex justify-between py-1 my-2'>
+                    <label className='mx-2'>Name:</label>
+                    <input 
+                        className="border rounded-md"
+                        type="text" name='name' defaultValue={name} onBlur={handleChange}>    
+                    </input>
                 </div>
-                <div>
-                    <label>Email address:</label>
-                    <input type='email' name='email' defaultValue={email} onBlur={handleChange}></input>
+                <div className='flex justify-between py-1 my-2'>
+                    <label className='mx-2'>Email:</label>
+                    <input 
+                        className="border rounded-md"
+                        type='email' name='email' defaultValue={email} onBlur={handleChange}>
+                    </input>
                 </div>
-                <div>
-                    <label>Message:</label>
-                    <textarea name='message' rows='5' defaultValue={message} onBlur={handleChange}></textarea>
+                <div className='flex justify-between py-1 my-2'>
+                    <label className='mx-2'>Message:</label>
+                    <textarea 
+                        className="border rounded-md resize-none"
+                        name='message' rows='5' defaultValue={message} onBlur={handleChange}></textarea>
                 </div>
                 {errorMessage && (
-                    <p>{errorMessage}</p>
+                    <p className='my-1 py-1 italic text-tertiary font-bold'>{errorMessage}</p>
                 )}
-                <button data-testid='button' type='submit'>Submit</button>
+                <button 
+                    className="bg-tangerine p-2 rounded-md" 
+                    data-testid='button' type='submit'>
+                    Submit
+                </button>
             </form>
         </section>
     )
