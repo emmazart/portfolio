@@ -5,7 +5,7 @@ function Resume() {
     return(
         <section id='resume' className="content py-3 my-2">
             <h2 className="content-title text-2xl">Resume</h2>
-            <div className='w-full h-96'>
+            <div className='w-full h-96 mt-4'>
                 <embed
                     className='w-full h-96' 
                     src={require("../../assets/resume.pdf")} 
