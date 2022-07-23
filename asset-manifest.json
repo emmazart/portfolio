@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.32f8c22a.css",
-    "main.js": "/portfolio/static/js/main.fa85eb5c.js",
+    "main.css": "/portfolio/static/css/main.f89a0b5b.css",
+    "main.js": "/portfolio/static/js/main.fe850e25.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/coming-soon.png": "/portfolio/static/media/coming-soon.4f68e27d211e42492d62.png",
     "static/media/flight-tracker-app.png": "/portfolio/static/media/flight-tracker-app.42386ef002ef282e863e.png",
@@ -13,12 +13,12 @@
     "static/media/budget-tracker.png": "/portfolio/static/media/budget-tracker.05216cade16575d63ae8.png",
     "static/media/note-taken.png": "/portfolio/static/media/note-taken.a4560b07defb25fc93df.png",
     "index.html": "/portfolio/index.html",
-    "main.32f8c22a.css.map": "/portfolio/static/css/main.32f8c22a.css.map",
-    "main.fa85eb5c.js.map": "/portfolio/static/js/main.fa85eb5c.js.map",
+    "main.f89a0b5b.css.map": "/portfolio/static/css/main.f89a0b5b.css.map",
+    "main.fe850e25.js.map": "/portfolio/static/js/main.fe850e25.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32f8c22a.css",
-    "static/js/main.fa85eb5c.js"
+    "static/css/main.f89a0b5b.css",
+    "static/js/main.fe850e25.js"
   ]
 }
