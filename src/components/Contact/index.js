@@ -44,7 +44,11 @@ function Contact() {
     return(
         <section id='contact' className="content py-3 my-2">
             <h2 className="content-title text-2xl">Contact Me</h2>
+
+            {/* FORM ELEMENT */}
             <form id='contact-form' onSubmit={handleSubmit}>
+
+                {/* NAME INPUT */}
                 <div className='flex justify-between py-1 my-2'>
                     <label className='mx-2'>Name:</label>
                     <input 
@@ -52,6 +56,8 @@ function Contact() {
                         type="text" name='name' defaultValue={name} onBlur={handleChange}>    
                     </input>
                 </div>
+
+                {/* EMAIL INPUT */}
                 <div className='flex justify-between py-1 my-2'>
                     <label className='mx-2'>Email:</label>
                     <input 
@@ -59,15 +65,21 @@ function Contact() {
                         type='email' name='email' defaultValue={email} onBlur={handleChange}>
                     </input>
                 </div>
+
+                {/* MESSAGE INPUT */}
                 <div className='flex justify-between py-1 my-2'>
                     <label className='mx-2'>Message:</label>
                     <textarea 
                         className="border rounded-md resize-none"
                         name='message' rows='5' defaultValue={message} onBlur={handleChange}></textarea>
                 </div>
+
+                {/* CONDITIONAL ERROR MESSAGE */}
                 {errorMessage && (
                     <p className='my-1 py-1 italic text-tertiary font-bold'>{errorMessage}</p>
                 )}
+
+                {/* SUBMIT BUTTON */}
                 <button 
                     className="bg-tangerine p-2 rounded-md" 
                     data-testid='button' type='submit'>

@@ -3,6 +3,11 @@ import Project from '../Project';
 
 function Portfolio() {
 
+    // PROJECTS ARRAY holds all project data
+    // github link gets appended to 'https://github.com/' in Project component
+    // deployment link needs full link
+    // all fields are required
+
     const projects = [
         {
             title: 'Swappers Meet',
@@ -53,6 +58,9 @@ function Portfolio() {
             <h2 className="content-title text-2xl">Portfolio</h2>
             <section className='w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
                 {/* alternate class names columns-1 md:columns-2 md:mt-5 md:pt-2 */}
+
+                {/* MAP OVER PROJECTS ARRAY */}
+                {/* for each project in array, return <Project /> with props passed for each key/value in project object */}
                 {projects.map(project => {
                     return(
                         <Project title={project.title} fileName={project.file_name} altText={project.alt} github={project.github} deployment={project.deployment} />

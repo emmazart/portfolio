@@ -2,11 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-
-
 function Project(props) {
+
+    // IMPORT PROPS FROM PORTFOLIO COMPONENT
     const { title, fileName, altText, github, deployment } = props;
 
+    // RENDER CARD COMPONENT FOR EACH PROJECT
                 return(
                     <div className='project-card flex justify-center my-8'>
                         <div className='rounded-lg shadow-lg bg-tangerine max-w-sm'>

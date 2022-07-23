@@ -3,6 +3,7 @@ import Navigation from '../Navigation';
 
 function Header(props) {
 
+    // IMPORT STATE VARIABLES FROM APP AND PASS TO NAVIGATION COMPONENT
     const { currentCategory, setCurrentCategory, categories } = props;
 
     return (

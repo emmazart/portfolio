@@ -1,17 +1,8 @@
+/* CUSTOM CSS CLASSES IN ADDITION TO TAILWIND CLASSES */
+
 .App {
   text-align: center;
   color: #242221;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 /* UTILS */

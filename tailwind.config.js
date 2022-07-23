@@ -1,3 +1,7 @@
+// config file extends all default tailwind css classes
+// primary-lightest colors are one palette 
+// pink-dark colors are optional palette
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [

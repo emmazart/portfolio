@@ -2,12 +2,17 @@ import React, { useEffect } from 'react';
 
 function Navigation(props) {
 
+    // IMPORT CATEGORY STATE VARIABLES
     const { categories = [], currentCategory, setCurrentCategory } = props;
 
+    // USE EFFECT TO SET DOCUMENT.TITLE AND RE-RENDER PAGE WHEN CURRENT CATEGORY IS UPDATED
     useEffect(() => {
         document.title = currentCategory.name;
     }, [currentCategory]);
 
+    // FOR EACH <li>
+    // if current category is selected, set classNames to tailwind classes for formatting "active"
+    // on click of any <li>, setCurrentCategory to the corresponding category in the array
     return(
         <nav className='nav py-2'>
             <ul className='nav-list text-xl text-lightest'>

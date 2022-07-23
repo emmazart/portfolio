@@ -9,6 +9,7 @@ import './App.css';
 
 function App() {
 
+  // DEFINE NAVIGATION CATEGORIES USING STATE
   const [categories] = useState([
     {
       name: "About me"
@@ -24,8 +25,10 @@ function App() {
     }
   ]);
 
+  // SET DEFAULT CATEGORY STATE TO 'ABOUT ME' SECTION
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
+  // CONDITIONALLY RENDER COMPONENTS BASED ON CURRENT CATEGORY STATE
   function handleCategory(currentCategory, categories) {
     switch(currentCategory.name) {
       case 'About me': 
@@ -41,6 +44,7 @@ function App() {
     };
   }
 
+  // RETURN JSX, PASS STATE METHODS/VARIABLES TO HEADER COMPONENT
   return (
     <div className="App p-9">
       <Header 
