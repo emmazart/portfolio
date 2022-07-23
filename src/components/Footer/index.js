@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 
 function Footer() {
@@ -23,6 +23,12 @@ function Footer() {
                     <FontAwesomeIcon icon={ faPaperPlane } size="lg" />
                     </a>
                 </li>
+                <li>
+                    <a href="https://www.instagram.com/emmazart/">
+                    <FontAwesomeIcon icon={ faInstagram } size="lg" />
+                    </a>
+                </li>
+
             </ul>
         </footer>
     )

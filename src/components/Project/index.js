@@ -20,23 +20,38 @@ const projects = [
     {
         title: 'Coding Quiz',
         file_name: 'coding-quiz.png',
-        alt: "gif of multiple computer screenshots of deployed application",
+        alt: "computer screenshot of deployed application",
         github: 'emmazart/coding-quiz',
         deployment: 'https://emmazart.github.io/coding-quiz/'
     },
     {
-        title: 'Untitled Project',
-        file_name: 'coming-soon.png',
-        alt: "colorful digital art reads 'coming soon'",
-        github: 'emmazart',
-        deployment: 'https://github.com/emmazart'
-    }
+        title: 'Note Taker',
+        file_name: 'note-taken.png',
+        alt: "computer screenshot of deployed application",
+        github: 'emmazart/note-taken',
+        deployment: 'https://emmazart-note-taken.herokuapp.com/'
+    },
+    {
+        title: 'Budget Tracker',
+        file_name: 'budget-tracker.png',
+        alt: "computer screenshot of deployed application",
+        github: 'emmazart/redesigned-octo-waffle',
+        deployment: 'https://warm-scrubland-56362.herokuapp.com/'
+    },
+    {
+        title: 'Workday Scheduler',
+        file_name: 'scheduler-app.png',
+        alt: "computer screenshot of deployed application",
+        github: 'emmazart/super-disco-rainbow',
+        deployment: 'https://emmazart.github.io/super-disco-rainbow/'
+    },
 ];
 
 function Project() {
 
     return(
-        <section className='w-full columns-1 md:columns-2 md:mt-5 md:pt-2'>
+        <section className='w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
+            {/* alternate class names columns-1 md:columns-2 md:mt-5 md:pt-2 */}
             {projects.map(project => {
 
                 return(
