@@ -45,8 +45,14 @@ function Contact() {
         <section id='contact' className="content py-3 my-2">
             <h2 className="content-title text-2xl">Contact Me</h2>
 
+            {/* FORM UNDER CONSTRUCTION ALERT */}
+            <div className='bg-tertiary p-2 w-9/12 rounded'>
+                <h3 className="text-md italic text-lightest">This form is currently under construction</h3>
+                <h4 className="text-sm italic text-lightest">To contact, please email: emma.olson794@gmail.com</h4>
+            </div>
+
             {/* FORM ELEMENT */}
-            <form id='contact-form' onSubmit={handleSubmit}>
+            <form id='contact-form' className="pt-2 mt-1" onSubmit={handleSubmit}>
 
                 {/* NAME INPUT */}
                 <div className='flex justify-between py-1 my-2'>
