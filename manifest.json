@@ -1,0 +1,8 @@
+{
+  "short_name": "Portfolio",
+  "name": "Emma Olson-Rossow Portfolio",
+  "start_url": "../index.js",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
