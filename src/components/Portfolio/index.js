@@ -24,6 +24,13 @@ function Portfolio() {
             deployment: 'https://emmazart.github.io/bootcamp-project-1/'
         },
         {
+            title: 'A Dish A Day',
+            file_name: 'dish-a-day.png',
+            alt: "computer screenshot of deployed application",
+            github: 'https://github.com/MNlegion/A-Dish-A-Day',
+            deployment: 'https://agile-ocean-35043.herokuapp.com/'
+        },
+        {
             title: 'Coding Quiz',
             file_name: 'coding-quiz.png',
             alt: "computer screenshot of deployed application",
@@ -36,13 +43,6 @@ function Portfolio() {
             alt: "computer screenshot of deployed application",
             github: 'emmazart/note-taken',
             deployment: 'https://emmazart-note-taken.herokuapp.com/'
-        },
-        {
-            title: 'Budget Tracker',
-            file_name: 'budget-tracker.png',
-            alt: "computer screenshot of deployed application",
-            github: 'emmazart/redesigned-octo-waffle',
-            deployment: 'https://warm-scrubland-56362.herokuapp.com/'
         },
         {
             title: 'Workday Scheduler',
