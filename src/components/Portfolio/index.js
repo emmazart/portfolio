@@ -27,7 +27,7 @@ function Portfolio() {
             title: 'A Dish A Day',
             file_name: 'dish-a-day.png',
             alt: "computer screenshot of deployed application",
-            github: 'https://github.com/MNlegion/A-Dish-A-Day',
+            github: 'MNlegion/A-Dish-A-Day',
             deployment: 'https://agile-ocean-35043.herokuapp.com/'
         },
         {
