@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f89a0b5b.css",
-    "main.js": "/portfolio/static/js/main.e557dd20.js",
+    "main.js": "/portfolio/static/js/main.828281c8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/dish-a-day.png": "/portfolio/static/media/dish-a-day.6374820c074c3b9e4917.png",
+    "static/media/dish-a-day.png": "/portfolio/static/media/dish-a-day.4b972567533167f0c8fa.png",
     "static/media/coming-soon.png": "/portfolio/static/media/coming-soon.4f68e27d211e42492d62.png",
     "static/media/flight-tracker-app.png": "/portfolio/static/media/flight-tracker-app.42386ef002ef282e863e.png",
     "static/media/swappers-meet.png": "/portfolio/static/media/swappers-meet.2f187ba8b4aa9b3be796.png",
@@ -15,11 +15,11 @@
     "static/media/note-taken.png": "/portfolio/static/media/note-taken.a4560b07defb25fc93df.png",
     "index.html": "/portfolio/index.html",
     "main.f89a0b5b.css.map": "/portfolio/static/css/main.f89a0b5b.css.map",
-    "main.e557dd20.js.map": "/portfolio/static/js/main.e557dd20.js.map",
+    "main.828281c8.js.map": "/portfolio/static/js/main.828281c8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f89a0b5b.css",
-    "static/js/main.e557dd20.js"
+    "static/js/main.828281c8.js"
   ]
 }
