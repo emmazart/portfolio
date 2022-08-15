@@ -10,13 +10,13 @@ function Resume() {
                 {/* EMBED PDF OF RESUME */}
                 <embed
                     className='w-full h-96' 
-                    src={require("../../assets/resume.pdf")} 
+                    src={require("../../assets/resume_2.pdf")} 
                     type="application/pdf">
                 </embed>
             </div>
             
             <p className='p-1 mt-3'>click 
-                <a className='px-1 text-tertiary' href={require("../../assets/resume.pdf")}>
+                <a className='px-1 text-tertiary' href={require("../../assets/resume_2.pdf")}>
                     here
                 </a>                
                 to download
