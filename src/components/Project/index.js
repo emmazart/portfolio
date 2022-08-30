@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 function Project(props) {
 
     // IMPORT PROPS FROM PORTFOLIO COMPONENT
-    const { title, fileName, altText, github, deployment } = props;
+    const { title, fileName, altText, github, deployment, description, tools } = props;
 
     // RENDER CARD COMPONENT FOR EACH PROJECT
                 return(
@@ -17,12 +17,14 @@ function Project(props) {
                             </img>
                             <div className='p-6'>
                                 <h3 className='text-xl font-medium mb-2'>{`${title}`}</h3>
-                                <p className='text-base'>
+                                <p className='text-base'>{description}</p>
+                                <p className='text-sm mt-3'>Built with: {tools}</p>
+                                <p className='text-xs mt-3'>
                                     <a href={`${deployment}`}>
                                         View deployment
                                     </a>
                                 </p>
-                                <p className='text-base'>
+                                <p className='text-xs'>
                                     <a href={`https://github.com/${github}`}>
                                         Check out {`${title}`} on Github <FontAwesomeIcon icon={faGithub}/>
                                     </a>

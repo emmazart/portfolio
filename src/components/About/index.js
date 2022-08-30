@@ -17,7 +17,7 @@ function About() {
         </div>
 
         {/* ABOUT ME TEXT */}
-        <div className="md:px-5 md:mx-2">
+        <div className="md:px-5 md:mx-2 flex-column align-top justify-center">
           <h3 className="my-2">Hi! I'm Emma</h3>
           <p className="my-3">
             I'm a full stack web developer leveraging my theatre management and small
@@ -36,6 +36,23 @@ function About() {
             product as the driving force. I’m looking for my next opportunity and excited to join a collaborative,
             quality and community-driven team to build applications with a purpose.
           </p>
+          <p className="my-3">        
+            <span 
+            className="font-bold"
+            >Languages: </span> <br />
+            Javascript & JQuery • MySQL & NoSQL • HTML & CSS
+          </p>
+          <p className="my-3">        
+            <span
+            className="font-bold"
+            >Tools & Methodologies: </span> <br />
+            MERN Stack • OOP • API Design • Git & Github
+          </p>
+          <img 
+            src={require('../../assets/badge.png')}
+            style={{ height: '400px', width: '400px', display: 'inline'}}
+            alt="gold and maroon badge reads: University of Minnesota Full Stack Web Development, College of Continuing & Professional Studies"
+          ></img>
         </div>
       </div>
     </section>
