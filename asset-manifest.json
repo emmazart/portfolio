@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ed2e6fba.css",
-    "main.js": "/portfolio/static/js/main.6f83fd2a.js",
+    "main.js": "/portfolio/static/js/main.6dd28977.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/dish-a-day.png": "/portfolio/static/media/dish-a-day.4b972567533167f0c8fa.png",
     "static/media/coming-soon.png": "/portfolio/static/media/coming-soon.4f68e27d211e42492d62.png",
     "static/media/flight-tracker-app.png": "/portfolio/static/media/flight-tracker-app.42386ef002ef282e863e.png",
     "static/media/swappers-meet.png": "/portfolio/static/media/swappers-meet.2f187ba8b4aa9b3be796.png",
     "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.78590362ac5263177f04.jpg",
-    "static/media/resume_2.pdf": "/portfolio/static/media/resume_2.4569c2fdd26af9139ee3.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.e0750829f24056b6acee.pdf",
     "static/media/coding-quiz.png": "/portfolio/static/media/coding-quiz.66d48c0613a9f6925e86.png",
     "static/media/badge.png": "/portfolio/static/media/badge.692487e9f18c20e8077c.png",
     "static/media/scheduler-app.png": "/portfolio/static/media/scheduler-app.33d673db631a1983e407.png",
@@ -16,11 +16,11 @@
     "static/media/note-taken.png": "/portfolio/static/media/note-taken.a4560b07defb25fc93df.png",
     "index.html": "/portfolio/index.html",
     "main.ed2e6fba.css.map": "/portfolio/static/css/main.ed2e6fba.css.map",
-    "main.6f83fd2a.js.map": "/portfolio/static/js/main.6f83fd2a.js.map",
+    "main.6dd28977.js.map": "/portfolio/static/js/main.6dd28977.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed2e6fba.css",
-    "static/js/main.6f83fd2a.js"
+    "static/js/main.6dd28977.js"
   ]
 }
