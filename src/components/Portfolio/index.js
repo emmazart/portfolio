@@ -31,8 +31,8 @@ function Portfolio() {
             title: 'A Dish A Day',
             file_name: 'dish-a-day.png',
             alt: "computer screenshot of deployed application",
-            github: 'MNlegion/A-Dish-A-Day',
-            deployment: 'https://agile-ocean-35043.herokuapp.com/',
+            github: 'emmazart/a-dish-a-day',
+            deployment: 'https://dish-a-day.herokuapp.com/',
             description: 'Inspired by a love of food, this app was created for foodies & independent recipe developers to share, save, and review recipes posted on the site.',
             tools: 'React, MongoDB & Mongoose, GraphQL, Apollo'
         },
