@@ -91,11 +91,11 @@ function Portfolio() {
                     These are websites I have built for clients using Weebly to allow for easy transfer of maintenance and updates to the clients themselves.
                 </h3>
                 <section className='w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
-                    {cms_projects.map(cms => {
+                    {/* {cms_projects.map(cms => {
                         return (
-                            <Project title={cms.title}></Project>
+                            // <Project title={cms.title}></Project>
                         )
-                    })}
+                    })} */}
                 </section>
                 <h3>The following applications were built from scratch using Javascript & Javascript-based technologies. <br/>
                     Additional details can be found in the details of each project. 
