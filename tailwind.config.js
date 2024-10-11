@@ -19,6 +19,7 @@ module.exports = {
         'darkest': '#242221',
         'lightest': '#F6DCD8',
         'pink': '#f4acb7',
+        'ltpink': '#f9d2d8',
         'peach': '#ffcdb2',
         'tangerine': '#ffb4a2',
         'rust': '#e5989b',

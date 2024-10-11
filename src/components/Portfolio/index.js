@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project';
+import ClientWebsite from '../ClientWebsites';
 
 function Portfolio() {
 
@@ -90,14 +91,14 @@ function Portfolio() {
                     The following websites demonstrate my experience working within content management systems. <br/>
                     These are websites I have built for clients using Weebly to allow for easy transfer of maintenance and updates to the clients themselves.
                 </h3>
-                <section className='w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
-                    {/* {cms_projects.map(cms => {
+                <section className='w-full grid grid-cols-1 md:grid-cols-2'>
+                    {cms_projects.map(cms => {
                         return (
-                            // <Project title={cms.title}></Project>
+                            <ClientWebsite title={cms.title} fileName={cms.file_name} altText={cms.alt} deployment={cms.deployment} description={cms.description}></ClientWebsite>
                         )
-                    })} */}
+                    })}
                 </section>
-                <h3>The following applications were built from scratch using Javascript & Javascript-based technologies. <br/>
+                <h3 className='m-4'>The following applications were built from scratch using Javascript & Javascript-based technologies. <br/>
                     Additional details can be found in the details of each project. 
                 </h3>
 
