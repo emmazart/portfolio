@@ -20,13 +20,12 @@ function About() {
         <div className="md:px-5 md:mx-2 flex-column align-top justify-center">
           <h3 className="my-2">Hi! I'm Emma</h3>
           <p className="my-3">
-            I'm a full stack web developer leveraging my theatre management and small
-            business operations background to build helpful and intuitive tools for
-            everyday use. 
+          I'm a front-end web developer leveraging my theatre management and small business operations background to build helpful and intuitive tools for everyday use.
+            
           </p>
           <p className="my-3">
-            I recently completed a certificate in full stack development
-            from the University of Minnesota Coding Bootcamp, am known as a leader in group-developed projects,
+            I received a certificate in full stack development
+            from the University of Minnesota Coding Bootcamp, am known as a leader among my colleagues & classmates,
             and have a passion for streamlining communication and developing clean, user-friendly
             applications. 
           </p>

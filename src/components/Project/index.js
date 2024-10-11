@@ -19,11 +19,16 @@ function Project(props) {
                                 <h3 className='text-xl font-medium mb-2'>{`${title}`}</h3>
                                 <p className='text-base'>{description}</p>
                                 <p className='text-sm mt-3'>Built with: {tools}</p>
-                                <p className='text-xs mt-3'>
-                                    <a href={`${deployment}`}>
-                                        View deployment
-                                    </a>
-                                </p>
+                                { deployment ? 
+                                    <p className='text-xs mt-3'>
+                                        <a href={`${deployment}`}>
+                                            View deployment
+                                        </a>
+                                    </p>
+                                 : 
+                                 <p className='text-xs m-3'>
+                                    Due to changes in Heroku's deployment programs, this application's live deployment is currently unavailable. Code and further application details can be found in the README.md on GitHub.
+                                </p>}
                                 <p className='text-xs'>
                                     <a href={`https://github.com/${github}`}>
                                         Check out {`${title}`} on Github <FontAwesomeIcon icon={faGithub}/>
