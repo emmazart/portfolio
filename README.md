@@ -29,7 +29,7 @@ Screenshot of deployed application homepage in simulated iPhone XR window:
 ## Standard Create-React-App README Info
 ### Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 #### Available Scripts
 
