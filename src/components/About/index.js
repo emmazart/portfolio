@@ -32,7 +32,7 @@ function About() {
           <p className="my-3">        
             In personal projects, my goal is to learn new technologies
             and use current knowledge in novel ways, not always focusing on the end
-            product as the driving force. I’m looking for my next opportunity and excited to join a collaborative,
+            product as the driving force. I’m looking for new opportunities and am excited to be part of a collaborative,
             quality and community-driven team to build applications with a purpose.
           </p>
           <p className="my-3">        
