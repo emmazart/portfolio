@@ -37,6 +37,24 @@ function Portfolio() {
             tools: 'Javascript, Tailwind CSS, AviationStack API, OpenWeather API'
         },
         {
+            title: 'A Dish A Day',
+            file_name: 'dish-a-day.png',
+            alt: "computer screenshot of deployed application",
+            github: 'emmazart/a-dish-a-day',
+            // deployment: 'https://dish-a-day.herokuapp.com/',
+            description: 'Inspired by a love of food, this app was created for foodies & independent recipe developers to share, save, and review recipes posted on the site.',
+            tools: 'React, MongoDB & Mongoose, GraphQL, Apollo'
+        },
+        {
+            title: 'Swappers Meet',
+            file_name: 'swappers-meet.png',
+            alt: "computer screenshot of deployed application",
+            github: 'MNlegion/Swappers-Meet',
+            // deployment: 'https://swappers-meet.herokuapp.com/',
+            description: 'Inspired by the Buy Nothing movement, this app aims to take their mission to a wider audience. This is a place for users to post and give away items they no longer need. In an act of mutual aid, items are given and taken freely, without the need for the exchange of money or other goods.',
+            tools: 'Javascript, Node & Express, MySQL, Bootstrap, Handlebars.js'
+        },
+        {
             title: 'Coding Quiz',
             file_name: 'coding-quiz.png',
             alt: "computer screenshot of deployed application",
@@ -62,25 +80,7 @@ function Portfolio() {
             deployment: 'https://emmazart.github.io/super-disco-rainbow/',
             description: 'This is a daily scheduling application written in JQuery. It allows users to add and keep track of their daily events, updating in real time with Day.js.',
             tools: 'JQuery, Bootstrap, Day.js'
-        },
-        {
-            title: 'Swappers Meet',
-            file_name: 'swappers-meet.png',
-            alt: "computer screenshot of deployed application",
-            github: 'MNlegion/Swappers-Meet',
-            // deployment: 'https://swappers-meet.herokuapp.com/',
-            description: 'Inspired by the Buy Nothing movement, this app aims to take their mission to a wider audience. This is a place for users to post and give away items they no longer need. In an act of mutual aid, items are given and taken freely, without the need for the exchange of money or other goods.',
-            tools: 'Javascript, Node & Express, MySQL, Bootstrap, Handlebars.js'
-        },
-        {
-            title: 'A Dish A Day',
-            file_name: 'dish-a-day.png',
-            alt: "computer screenshot of deployed application",
-            github: 'emmazart/a-dish-a-day',
-            // deployment: 'https://dish-a-day.herokuapp.com/',
-            description: 'Inspired by a love of food, this app was created for foodies & independent recipe developers to share, save, and review recipes posted on the site.',
-            tools: 'React, MongoDB & Mongoose, GraphQL, Apollo'
-        },
+        }
     ];
 
     return(
